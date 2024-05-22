@@ -6,7 +6,7 @@ const app = express(); // Creating an instance of the express application
 
 // CORS options configuration
 const corsOptions = {
-  origin: [process.env.BASE_URL, "http://localhost:3000"], // Specifying allowed origins
+  origin: [process.env.BASE_URL], // Specifying allowed origins
   credentials: true, // Enabling credentials
   optionSuccessStatus: 200, // Setting the success status for OPTIONS requests
 };
